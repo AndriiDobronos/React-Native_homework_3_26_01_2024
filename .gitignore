@@ -17,6 +17,10 @@ web-build/
 *.mobileprovision
 
 src/components/SearchComponent.tsx
+src/components/PagerView.tsx
+src/components/RefreshControl.tsx
+
+
 
 # Metro
 .metro-health-check*

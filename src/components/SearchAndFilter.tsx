@@ -70,11 +70,9 @@ const SearchAndFilter = () => {
                 data={filteredData}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
-                    <ScrollView>
-                        <View style={styles.itemContainer}>
-                            <ProductCard mockItemData={item.mockItemData}/>
-                        </View>
-                    </ScrollView>
+                    <View style={styles.itemContainer}>
+                        <ProductCard mockItemData={item.mockItemData}/>
+                    </View>
                 )}
             />
             <Modal
